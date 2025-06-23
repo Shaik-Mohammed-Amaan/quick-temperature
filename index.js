@@ -41,7 +41,7 @@ function convertTemperature() {
 
 function getTemperature() {
     let cityValue = document.getElementById("city").value;
-    fetch(`https://api.openweathermap.org/data/2.5/weather?q=${cityValue}&units=metric&appid=bcd845f6b74b20c75f84f6bdcbe8149d
+    fetch(`https://api.openweathermap.org/data/2.5/weather?q=${cityValue}&units=metric&appid=e26287ebe9ee85979fc416e35b331201
 `).then(response => response.json())
         .then((data) => {
             console.log(data);
